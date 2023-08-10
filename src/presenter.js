@@ -6,5 +6,5 @@ const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  div.innerHTML = "<p>" + sumar() + "</p>";
+  div.innerHTML = "<p>" + sumar(first.value) + "</p>";
 });
